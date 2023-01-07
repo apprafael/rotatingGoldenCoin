@@ -14,6 +14,7 @@
 		263006292969D94300922D1E /* rotatingGoldenCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263006282969D94300922D1E /* rotatingGoldenCoinTests.swift */; };
 		263006332969D94300922D1E /* rotatingGoldenCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263006322969D94300922D1E /* rotatingGoldenCoinUITests.swift */; };
 		263006352969D94300922D1E /* rotatingGoldenCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263006342969D94300922D1E /* rotatingGoldenCoinUITestsLaunchTests.swift */; };
+		263006422969D95A00922D1E /* RotationGoldenCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263006412969D95A00922D1E /* RotationGoldenCoinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2630062E2969D94300922D1E /* rotatingGoldenCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotatingGoldenCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263006322969D94300922D1E /* rotatingGoldenCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotatingGoldenCoinUITests.swift; sourceTree = "<group>"; };
 		263006342969D94300922D1E /* rotatingGoldenCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotatingGoldenCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		263006412969D95A00922D1E /* RotationGoldenCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGoldenCoinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		263006162969D94000922D1E /* rotatingGoldenCoin */ = {
 			isa = PBXGroup;
 			children = (
+				263006412969D95A00922D1E /* RotationGoldenCoinView.swift */,
 				263006172969D94000922D1E /* rotatingGoldenCoinApp.swift */,
 				263006192969D94000922D1E /* ContentView.swift */,
 				2630061B2969D94300922D1E /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2630061A2969D94000922D1E /* ContentView.swift in Sources */,
+				263006422969D95A00922D1E /* RotationGoldenCoinView.swift in Sources */,
 				263006182969D94000922D1E /* rotatingGoldenCoinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
